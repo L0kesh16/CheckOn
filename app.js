@@ -50,13 +50,13 @@ app.post("/", function (req, res) {
 app.get("/failure", function (req, res) {
     res.sendFile(__dirname + "/public/html/failed.html");
     setTimeout(() => {
-        res.redirect("/check");
+        window.location.href = '/check';
     }, 3000); 
 })
 app.get("/success", function (req, res) {
     res.sendFile(__dirname + "/public/html/success.html");
 setTimeout(() => {
-    res.redirect("/check");
+    window.location.href = '/check';
 }, 3000);    
    
 })
