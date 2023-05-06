@@ -66,6 +66,6 @@ app.get("/check", function (req, res) {
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/public/html/login.html");
 })
-app.listen(process.env.PORT||3000, function (req, res) {
+app.listen(process.env.PORT, function (req, res) {
     console.log("Server is Ready");
 })
