@@ -1,2 +1,2 @@
 # CheckOn
-Weblink-
+This Website is used to verify the ticked Booked in Onbus Webite
